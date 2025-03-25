@@ -25,11 +25,11 @@ RUN echo "APP_KEY=base64:CYxZypwXFKB2R389b3GCzR4aTyV2DH7Zf94SzGt3yjY=" >> .env
 RUN echo "APP_DEBUG=true" >> .env
 RUN echo "APP_URL=http://localhost" >> .env
 RUN echo "DB_CONNECTION=pgsql" >> .env
-RUN echo "DB_HOST=dpg-cvh0a78gph6c73dal230-a" >> .env
+RUN echo "DB_HOST=dpg-cvh0guin91rc73as11h0-a" >> .env
 RUN echo "DB_PORT=5432" >> .env
-RUN echo "DB_DATABASE=lab2_wn2j" >> .env
+RUN echo "DB_DATABASE=dbname_hrgb" >> .env
 RUN echo "DB_USERNAME=root" >> .env
-RUN echo "DB_PASSWORD=iC41b28DdFWTg6HEbHzT9SmxAI6ghCXo" >> .env
+RUN echo "DB_PASSWORD=ec2MtO00PwNVbtq51Yp2Ajp9BU8S2o1f" >> .env
 
 # Generar la clave de la aplicación Laravel
 RUN php artisan key:generate
